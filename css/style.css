@@ -6,3 +6,20 @@
 #serviceBar {
   background-color: #95E6FF;
 }
+
+
+
+
+@media (min-width: 300px) {
+  #navContent {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 992px) {
+  #navContent {
+    display: flex;
+    flex-direction: row;
+  }
+}
