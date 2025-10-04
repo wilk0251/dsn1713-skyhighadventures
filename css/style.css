@@ -7,9 +7,6 @@
   background-color: #95E6FF;
 }
 
-
-
-
 @media (min-width: 300px) {
   #navContent {
     display: flex;
